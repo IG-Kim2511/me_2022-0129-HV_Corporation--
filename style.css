@@ -233,7 +233,7 @@
 #services-slideShow #prev,
 #services-slideShow #next{
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     border-radius: 50%;
     z-index: 100;
@@ -251,9 +251,12 @@
 
 #services-slideShow #prev:hover,
 #services-slideShow #next:hover{
-  color:#fff;
+  
+  /* transform: scale(1.1); */
+    /* color:#fff; */
   background:var(--orange);
 }
+
 #services-slideShow #prev{
     left:3rem;
 }
