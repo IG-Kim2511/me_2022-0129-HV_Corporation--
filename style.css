@@ -107,163 +107,113 @@
 
 /* services-slideShow */
 
-#services-slideShow .title{
-    
+#services-slideShow .title{    
     font-size: 4rem;
     padding: 5rem;
-
 }
 
 
-#services-slideShow{
-    
-    padding: 0;
-    position: relative;
-}
-
-#services-slideShow .slide-container .slide{
-    
-    min-height: 100vh;
-    
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap; /* 🦄 flex*/
-    
-    gap: 1.5rem; /* 🦄flex에서도 사용가능 */
-    padding: 0 9%;
-    padding-top: 9rem;
-
-    
-}
+/*  */
 
 
-#services-slideShow .slide-container .slide .content{
-    
-     /* 🦄https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
-     flex: 1 1 40rem;
-     animation: slideContent 0.5s linear 1s backwards;
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-@keyframes slideContent{
-    0%{
-        opacity: 0;
-        transform: translateX(-10rem);
-    }
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-#services-slideShow .slide-container .slide .image{
-    flex: 1 1 50rem;        /* 🦄 flex */
-    padding-bottom: 15rem;
-    position: relative;
-    z-index: 0;
-
-    width: 1200px;
-}
-#services-slideShow .slide-container .slide .image img{
-
-    width: 100%;
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-#services-slideShow .slide-container .slide .image .shoe{
-    
-    width: 100%;
-    transform: rotate(-35deg);
-    animation: shoe 0.3s linear;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-@keyframes shoe {
-    0%{
-        transform: rotate(0deg) scale(0.5);
-    }
-    
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-#services-slideShow .slide-container .slide .image .text{
-    position: absolute;
-    top: 0; left: 0;
-    z-index: -1;
-    animation: shoeText 0.5s linear 0.5s backwards;
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-@keyframes shoeText {
-    0%{
-        opacity: 0;
-        top: -10rem;
-    }    
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-#services-slideShow .slide-container .slide .content span{
-    font-size: 2rem;
-    color: var(--orange);
-}
-#services-slideShow .slide-container .slide .content h3{
-    font-size: 5rem;
-    color: var(--black);
-}
-#services-slideShow .slide-container .slide .content p{
-    font-size: 1.7rem;
-    color: #666;
-    padding: 0.5rem 0;
+.active, .dot:hover {
+  background-color: #717171;
 }
 
-#services-slideShow .slide-container:nth-child(1) .slide{
-    /* background: url(./images/services-slideShow-bg-1.jpg) no-repeat; */
-    background-size: cover;
-    background-position: center;
-}
-#services-slideShow .slide-container:nth-child(2) .slide{
-    /* background: url(./images/services-slideShow-bg-2.jpg) no-repeat; */
-    background-size: cover;
-    background-position: center;
-}
-#services-slideShow .slide-container:nth-child(3) .slide{
-    /* background: url(./images/services-slideShow-bg-3.jpg) no-repeat; */
-    background-size: cover;
-    background-position: center;
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-#services-slideShow .slide-container{
-    display: none; /* 🍖js22 css  */
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-#services-slideShow .slide-container.active{
-    display: block; /* 🍖js22 css  */
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-#services-slideShow #prev,
-#services-slideShow #next{
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    z-index: 100;
-
-    height: 5rem;   /* 🍖css20 */
-    width: 5rem;
-    line-height: 4.5rem; /* 🦄css20 수직정렬 */
-
-    font-size: 2rem;
-    color: var(--black);
-    border: 0.2rem solid var(--black);
-    cursor: pointer;
-    text-align: center; /* 🦄수평정렬 */
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
 
-#services-slideShow #prev:hover,
-#services-slideShow #next:hover{
-  
-  /* transform: scale(1.1); */
-    /* color:#fff; */
-  background:var(--orange);
-}
 
-#services-slideShow #prev{
-    left:3rem;
-}
-  
-#services-slideShow #next{
-    right:3rem;
-}
+
 
 /* map */
 
