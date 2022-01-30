@@ -1,0 +1,55 @@
+
+/* navbar */
+.title{ 
+    width: 300px;
+    padding: 2rem;
+}
+.title img{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: var(--color-main);
+}
+
+.navbar ul a{
+    padding: 1rem;
+    
+}
+
+.navbar .phone-container{
+    display: flex;
+}
+.navbar .phone-container .phone{
+    padding: 1rem;
+
+}
+
+/* introduce */
+
+
+#introduce .introduce-item {
+    background-color: yellow;
+
+    width: 1500px;
+
+    position: relative;
+
+ 
+}
+
+#introduce .introduce-item img{
+    width: 100%;
+    
+}
+
+#introduce .introduce-item text{
+position: absolute;
+top: 10;
+right: 10;
+    
+}
