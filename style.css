@@ -114,6 +114,7 @@
 
 #services-slideShow .mySlides{
     position: relative;
+
 }
 
 
@@ -126,6 +127,7 @@
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
     );
+
     width: 100%;    
     padding: 2rem;
     text-align: center;
@@ -262,6 +264,7 @@ content: "";
 
 #map .map{
     width: 1200px;
+    text-align: center;
 }
 #map .map img{
     width: 100%;
