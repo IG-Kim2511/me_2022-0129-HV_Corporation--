@@ -254,10 +254,6 @@ content: "";
 }
 
 
-
-
-
-
 /* mainProducts */
 #mainProducts {
     background-color: var(--color-main);
@@ -277,12 +273,90 @@ content: "";
 
 #mainProducts table td{
     padding: 1.5rem;
- }
+}
+
+
+/* contact */
+#contact{
+    display: flex;
+    max-width: 1500px;
+
+    background-color: var(--color-main2);
+}
+
+#contact .contact-items{
+    width: 750px;
+    
+}
+#contact .contact-items .title{
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+#contact .contact-items div{
+    padding: 2rem;
+}
+
+#contact .contact-items div p{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+#contact .contact-items li{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
 
 
 
+/* 🦄grid -me */
+/* html :  
+    <form class="grid-container">
+        <div class="formLine left grid-a">
+    </form>
+  */
+
+  .grid-container {
+    display: grid;
+  
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e e"
+      "f f"
+      "g g";
+  
+    /*🍀grid: img 가운데 정렬 in the container */
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .grid-container .grid-a {
+    grid-area: a;
+  }
+  .grid-container .grid-b {
+    grid-area: b;
+  }
+  .grid-c {
+    grid-area: c;
+  }
+  .grid-d {
+    grid-area: d;
+  }
+  .grid-e {
+    grid-area: e;
+  }
+  .grid-f {
+    grid-area: f;
+  }
+  
 
 
+
+#contact form input,
+#contact form textarea{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
 
 
 
