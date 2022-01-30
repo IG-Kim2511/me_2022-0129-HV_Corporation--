@@ -261,3 +261,12 @@
 #services-slideShow #next{
     right:3rem;
 }
+
+/* map */
+
+#map .map{
+    width: 1200px;
+}
+#map .map img{
+    width: 100%;
+}
