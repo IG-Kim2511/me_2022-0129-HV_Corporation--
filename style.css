@@ -138,7 +138,7 @@
     bottom: 50%;
  */
     font-size: 2rem;
-    color: black;
+    color: #fff;
 }
 
 /* #services-slideShow .mySlides .text::before{
@@ -146,20 +146,21 @@
 content: "";
   background-color: yellow;
   width: 1000px;
-  height: 1000px;
- 
+  height: 1000px; 
 }
  */
 
 /*  */
-.mySlides {display: none}
+.mySlides {
+    display: none;    
+}
 
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Next & previous buttons */
