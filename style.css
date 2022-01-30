@@ -51,8 +51,7 @@
     background-size: cover;
     position: relative;
 
-    margin: 80px 0 ;    
-    
+    margin: 80px 0;     
 }
 
 #introduce .item2{
@@ -133,7 +132,6 @@
 }
 
 
-
 #services-slideShow .mySlides .text{
 
 /*     position: absolute;
@@ -154,8 +152,6 @@ content: "";
  */
 
 /*  */
-
-
 .mySlides {display: none}
 
 
@@ -194,7 +190,8 @@ content: "";
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  /* background-color: rgba(0,0,0,0.8); */
+  transform: scale(1.1);
 }
 
 /* Caption text */
@@ -259,12 +256,48 @@ content: "";
 
 
 
+
+
+/* mainProducts */
+#mainProducts {
+    background-color: var(--color-main);
+
+    padding-bottom: 5rem;
+}
+
+#mainProducts .title{
+    font-size: 4rem;
+    padding: 5rem;
+}
+
+
+#mainProducts table{    
+    width: 1000px;
+}
+
+#mainProducts table td{
+    padding: 1.5rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
 /* map */
 
 #map .map{
-    width: 1200px;
-    text-align: center;
+    width: 1200px;    
+
+    display: block;
+    margin: auto;    
 }
+
 #map .map img{
     width: 100%;
 }
