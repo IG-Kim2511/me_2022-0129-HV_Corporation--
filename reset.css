@@ -5,6 +5,7 @@
 
   --color-main:#f1f1f1;
   --color-main-white:#fff;
+  --color-main2:#e1eff2;
 
   --color-10: #003049;
   --color-10-dark: #01111a;
@@ -222,57 +223,6 @@ td {
 
 .transforming {
   transition: transform 0.5s;
-}
-
-/* 🦄grid -me */
-/* html :  
-    <form id="parent">
-        <div class="formLine left grid-a">
-    </form>
-  */
-
-#parent {
-  display: grid;
-
-  grid-template-areas:
-    "a b"
-    "c d"
-    ". e"
-    ". f";
-
-  /* 
-    🍀grid : 아무 알파벳 넣고, 설정안해도 그대로 그리드 만들어짐 
-      grid-template-areas:
-      "o p q  "
-      "s t a  "
-      "u v c  "
-      "w x e ";
-    */
-
-  gap: 2.5%;
-
-  /*🍀grid: img 가운데 정렬 in the container */
-  justify-items: center;
-  align-items: center;
-}
-
-.grid-a {
-  grid-area: a;
-}
-.grid-b {
-  grid-area: b;
-}
-.grid-c {
-  grid-area: c;
-}
-.grid-d {
-  grid-area: d;
-}
-.grid-e {
-  grid-area: e;
-}
-.grid-f {
-  grid-area: f;
 }
 
 /* 🦄grid- the other way  */
