@@ -32,24 +32,81 @@
 /* introduce */
 
 
-#introduce .introduce-item {
-    background-color: yellow;
-
+#introduce .introduce-item {    
     width: 1500px;
+    position: relative; 
 
+    text-align: center;    
+    color: var(--color-main-white);
+}
+
+
+
+
+#introduce .item1{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(./img/DSC_1317.jpg) center no-repeat;   
+    background-size: cover;
     position: relative;
 
+    margin: 80px;
+
+    
+}
+
+#introduce .item2{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(./img/20191017_145432----.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    margin: 80px;
+}
+
+#introduce .item1 .text{
+    position: absolute;
+    top: 40%;
  
 }
 
-#introduce .introduce-item img{
-    width: 100%;
-    
+#introduce .item2 .text{
+    position: absolute;
+    bottom: 10%;
+
+    /* left: 50%;
+    transform: translateX(-50%); */
 }
 
-#introduce .introduce-item text{
-position: absolute;
-top: 10;
-right: 10;
-    
+
+
+#introduce .item1 h1{
+    font-size: 7rem;
+
 }
+#introduce .item1 div{
+    font-size: 2rem;
+    padding-left: 3rem;
+
+}
+
+
+#introduce .item2 h1{
+    font-size: 4rem;
+    margin-bottom: 10rem;
+
+}
+#introduce .item2 div{
+    font-size: 1rem;
+    padding-left: 3rem;
+    text-transform: none;
+    text-align: start;
+
+
+}
+
+
+
