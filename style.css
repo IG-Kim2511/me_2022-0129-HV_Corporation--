@@ -403,6 +403,10 @@ grid-area: g;
     font-size: 2rem;
 }
 
+#contact .submit:hover{
+    opacity: 0.5;
+}
+
 
 
 
