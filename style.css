@@ -419,3 +419,18 @@ grid-area: g;
 #map .map img{
     width: 100%;
 }
+
+
+/* footer */
+footer{
+    padding: 5rem 0;
+}
+
+footer ul{
+    padding: 2rem 0;
+}
+
+footer ul a{
+    padding: 0 0.5rem;
+    font-size: 2rem;
+}
