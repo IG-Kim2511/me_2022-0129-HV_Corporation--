@@ -112,6 +112,45 @@
     padding: 5rem;
 }
 
+#services-slideShow .mySlides{
+    position: relative;
+}
+
+
+#services-slideShow .mySlides .text-container{
+
+    position: absolute;
+    bottom: 50%;
+
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    );
+    width: 100%;    
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+#services-slideShow .mySlides .text{
+
+/*     position: absolute;
+    bottom: 50%;
+ */
+    font-size: 2rem;
+    color: black;
+}
+
+/* #services-slideShow .mySlides .text::before{
+
+content: "";
+  background-color: yellow;
+  width: 1000px;
+  height: 1000px;
+ 
+}
+ */
 
 /*  */
 
