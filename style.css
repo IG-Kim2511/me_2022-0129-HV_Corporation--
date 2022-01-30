@@ -366,6 +366,10 @@ grid-area: e;
 grid-area: f;
 }
   
+#contact .grid-container .grid-g {
+grid-area: g;
+}
+  
 
 #contact .grid-container .grid-c input:hover, 
 #contact .grid-container .grid-d input:hover,
@@ -389,6 +393,15 @@ grid-area: f;
     text-align: left;
 }
 
+#contact .submit{
+    
+    width: 730px;
+    height: 4.5rem;
+
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+}
 
 
 
