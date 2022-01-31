@@ -287,7 +287,7 @@ content: "";
 /* contact */
 #contact{
     display: flex;
-    width: var(--main-width);
+    width: var(--main-width);  /* CSS10 */
 
     background-color: var(--color-main2);
 }
@@ -390,10 +390,10 @@ grid-area: g;
  padding-top: 10px;
 }
 #contact .grid-container .share{
-    width: 350px;
+    width: 350px; /* CSS10 */
 }
 #contact .grid-container .alone{
-    width: 730px;
+    width: 730px;   /* CSS10 */
 }
 
 #contact .grid-container div{

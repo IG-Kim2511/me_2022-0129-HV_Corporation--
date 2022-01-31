@@ -1,0 +1,33 @@
+
+  
+  /* @ 768px */
+  @media (max-width: 768px) {
+    :root {
+    }
+  
+    html {
+      background-color: yellow;
+      font-size: 70%;
+    }
+  }
+  
+  /* @ 576px */
+  @media (max-width: 576px) {
+    html {
+      background-color: blue;
+      font-size: 55%;
+    }
+  }
+  
+  /* @ 1200px */
+  @media (min-width: 1200px) {
+    html{
+      /* background-color: green; */
+    }
+
+    #skills,
+    #language {
+      max-width: 1200px;
+      margin: auto;
+    }
+  }
