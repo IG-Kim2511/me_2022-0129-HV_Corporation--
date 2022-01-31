@@ -33,7 +33,8 @@
 
 
 #introduce .introduce-item {    
-    width: 1500px;
+    
+    width: var(--main-width);
     position: relative; 
 
     text-align: center;    
@@ -155,20 +156,20 @@ content: "";
  */
 
 /*  */
-.mySlides {
+#services-slideShow .mySlides {
     display: none;    
 }
 
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1500px;
+#services-slideShow .slideshow-container {
   position: relative;
   margin: 0 auto;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+#services-slideShow .prev,
+#services-slideShow .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -184,23 +185,24 @@ content: "";
 }
 
 /* Position the "next button" to the right */
-.prev {
+#services-slideShow .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
-.next {
+#services-slideShow .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+#services-slideShow .prev:hover,
+#services-slideShow .next:hover {
   /* background-color: rgba(0,0,0,0.8); */
   transform: scale(1.1);
 }
 
 /* Caption text */
-.text {
+#services-slideShow .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -211,7 +213,7 @@ content: "";
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+#services-slideShow .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -220,7 +222,7 @@ content: "";
 }
 
 /* The dots/bullets/indicators */
-.dot {
+#services-slideShow .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -231,12 +233,13 @@ content: "";
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+#services-slideShow .active,
+#services-slideShow .dot:hover {
   background-color: #717171;
 }
 
 /* Fading animation */
-.fade {
+#services-slideShow .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -284,7 +287,7 @@ content: "";
 /* contact */
 #contact{
     display: flex;
-    max-width: 1500px;
+    width: var(--main-width);
 
     background-color: var(--color-main2);
 }
@@ -323,7 +326,6 @@ content: "";
 
     background-color: var(--color-main2);
 }
-
 
 
 #contact .grid-container {
@@ -419,7 +421,7 @@ grid-area: g;
 /* map */
 
 #map .map{
-    width: 1500px;    
+    width: var(--main-width);    
 
     display: block;
     margin: auto;    
