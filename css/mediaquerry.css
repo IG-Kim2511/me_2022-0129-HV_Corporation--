@@ -24,7 +24,7 @@
     :root {
       --main-width: 500px;
     } 
-    #contact{   
+    .contact{   
       flex-direction: column;
     }
   }
@@ -35,18 +35,18 @@
       --main-width: 1200px;
     } 
 
-    #contact .contact-items{
+    .contact .contact-items{
       width: 600px;    /* CSS10 */     
     }
 
-    #contact .grid-container .share{
+    .contact .grid-container .share{
       width: 250px; /* CSS10 */
     }
-    #contact .grid-container .alone{
+    .contact .grid-container .alone{
         width: 600px;   /* CSS10 */
     }
   
-    #contact .submit{    
+    .contact .submit{    
       width: 600px;
     }
   }

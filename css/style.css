@@ -311,7 +311,7 @@ content: "";
 
 
 /* contact */
-#contact{
+.contact{
     display: flex;
    
 
@@ -319,25 +319,25 @@ content: "";
     margin: auto;
 }
 
-#contact .contact-items{
+.contact .contact-items{
     width: 750px;    /* CSS10 */    
     margin: auto;
     
 }
-#contact .contact-items .title{
+.contact .contact-items .title{
     font-size: 3rem;
     padding: 2rem;
 }
 
-#contact .contact-items .explain{
+.contact .contact-items .explain{
     padding: 2rem;
 }
 
-#contact .contact-items .explain p{
+.contact .contact-items .explain p{
     padding: 0.5rem;
     font-size: 1.3rem;
 }
-#contact .contact-items li{
+.contact .contact-items li{
     padding: 0.5rem;
     font-size: 1.3rem;
 }
@@ -347,8 +347,8 @@ content: "";
 /* 🦄grid -me */
 
 
-#contact form input,
-#contact form textarea{
+.contact form input,
+.contact form textarea{
     padding: 1rem;
     border-bottom: 1px solid black;
 
@@ -356,7 +356,7 @@ content: "";
 }
 
 
-#contact .grid-container {
+.contact .grid-container {
 
 padding: 50px 0;
 
@@ -375,61 +375,61 @@ align-items: center;
 
 }
 
-#contact .grid-container .grid-a {
+.contact .grid-container .grid-a {
 grid-area: a;
 }
 
-#contact .grid-container .grid-a input, 
-#contact .grid-container .grid-b input{
+.contact .grid-container .grid-a input, 
+.contact .grid-container .grid-b input{
     border: 1px solid red;
     background-color: #e4dee0;
 }
 
-#contact .grid-container .grid-b {
+.contact .grid-container .grid-b {
 grid-area: b;
 }
 
-#contact .grid-container .grid-c {
+.contact .grid-container .grid-c {
 grid-area: c;
 }
-#contact .grid-container .grid-d {
+.contact .grid-container .grid-d {
 grid-area: d;
 }
-#contact .grid-container .grid-e {
+.contact .grid-container .grid-e {
 grid-area: e;
 }
-#contact .grid-container .grid-f {
+.contact .grid-container .grid-f {
 grid-area: f;
 }
   
-#contact .grid-container .grid-g {
+.contact .grid-container .grid-g {
 grid-area: g;
 }
   
 
-#contact .grid-container .grid-c input:hover, 
-#contact .grid-container .grid-d input:hover,
-#contact .grid-container .grid-e input:hover,
-#contact .grid-container .grid-f textarea:hover{
+.contact .grid-container .grid-c input:hover, 
+.contact .grid-container .grid-d input:hover,
+.contact .grid-container .grid-e input:hover,
+.contact .grid-container .grid-f textarea:hover{
     border: 1px solid black;    
 }
 
 
-#contact .grid-container .gPad{
+.contact .grid-container .gPad{
  padding-top: 10px;
 }
-#contact .grid-container .share{
+.contact .grid-container .share{
     width: 350px; /* CSS10 */
 }
-#contact .grid-container .alone{
+.contact .grid-container .alone{
     width: 730px;   /* CSS10 */
 }
 
-#contact .grid-container div{
+.contact .grid-container div{
     text-align: left;
 }
 
-#contact .submit{
+.contact .submit{
     
     width: 730px;
     height: 4.5rem;
@@ -439,7 +439,7 @@ grid-area: g;
     font-size: 2rem;
 }
 
-#contact .submit:hover{
+.contact .submit:hover{
     opacity: 0.5;
 }
 
