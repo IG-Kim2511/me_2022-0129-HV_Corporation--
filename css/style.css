@@ -70,13 +70,11 @@
 }
 
 
-
-
 #introduce .item1{
     width: 100%;
     height: 80vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(./img/front1.jpg) center no-repeat;   
+    rgba(0, 0, 0, 0.5)), url(../img/front1.jpg) center no-repeat;   
     background-size: cover;
     position: relative;
 
@@ -87,7 +85,7 @@
     width: 100%;
     height: 80vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url(./img/front2.jpg) center no-repeat;
+    rgba(0, 0, 0, 0.5)), url(../img/front2.jpg) center no-repeat;
     background-size: cover;
     position: relative;
     
