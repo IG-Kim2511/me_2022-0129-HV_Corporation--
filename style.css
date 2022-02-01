@@ -1,4 +1,32 @@
 
+:root {
+    /* color */
+  
+    --color-main:#f1f1f1;
+    --color-main-white:#fff;
+    --color-main2:#e1eff2;
+  
+    /*  */
+    --main-width: 1500px;
+  
+    --shadow: 0 2rem 3rem #777;
+  
+    /* size */
+    --base: 1rem;
+    --sm: calc(var(--base) * 1.5);
+    --med: calc(var(--base) * 3);
+    --large: calc(var(--base) * 5);
+  
+    /* border-radius :basic 4px=0.25rem  */
+    --border-radius-4px: 0.3rem;
+  
+    /* Animation :basic 300ms=0.3s  */
+    --animation_basic-duration-300ms: 300ms;
+  
+    /* letterspacing : basic 0.1rem */
+    --letterspacing-basic: 0.1rem;
+  }
+
 /* navbar */
 #nav .title{ 
     width: 300px;
@@ -294,7 +322,8 @@ content: "";
 }
 
 #contact .contact-items{
-    width: 750px;    /* CSS10 */
+    width: 750px;    /* CSS10 */    
+    margin: auto;
     
 }
 #contact .contact-items .title{
@@ -345,6 +374,7 @@ grid-template-areas:
 /*🍀grid: img 가운데 정렬 in the container */
 justify-items: center;
 align-items: center;
+
 }
 
 #contact .grid-container .grid-a {

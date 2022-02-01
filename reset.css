@@ -1,32 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap');
 
-:root {
-  /* color */
-
-  --color-main:#f1f1f1;
-  --color-main-white:#fff;
-  --color-main2:#e1eff2;
-
-  /*  */
-  --main-width: 1500px;
-
-  --shadow: 0 2rem 3rem #777;
-
-  /* size */
-  --base: 1rem;
-  --sm: calc(var(--base) * 1.5);
-  --med: calc(var(--base) * 3);
-  --large: calc(var(--base) * 5);
-
-  /* border-radius :basic 4px=0.25rem  */
-  --border-radius-4px: 0.3rem;
-
-  /* Animation :basic 300ms=0.3s  */
-  --animation_basic-duration-300ms: 300ms;
-
-  /* letterspacing : basic 0.1rem */
-  --letterspacing-basic: 0.1rem;
-}
 
 /*🍀Universal tags */
 

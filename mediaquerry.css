@@ -20,10 +20,12 @@
   }
   
   /* @ 1200px */
-  @media (max-width: 1200px) {
-   
-    html {
-      /* background-color: red;       */
+  @media (max-width: 1200px) {    
+    :root {
+      --main-width: 500px;
+    } 
+    #contact{   
+      flex-direction: column;
     }
   }
 
