@@ -1,0 +1,28 @@
+
+
+
+.blog_section .blog_container{
+    width: 1200px;
+
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+.blog_section .blog_text{
+    display: flex;
+
+    padding: 20px;
+}
+
+.blog_section .text-container{
+    text-align: left;
+}
+
+.blog_section .text-container div,
+.blog_section .text-container h3{
+    padding: 5px;
+}
+
+.blog_section .text-container .name{
+    padding-left: 30px;
+}
