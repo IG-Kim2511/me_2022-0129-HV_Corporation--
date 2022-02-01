@@ -315,7 +315,7 @@ content: "";
 /* contact */
 #contact{
     display: flex;
-    width: var(--main-width);  /* CSS10 */
+   
 
     background-color: var(--color-main2);
     margin: auto;
