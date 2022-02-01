@@ -1,0 +1,71 @@
+
+
+
+
+
+/*  */
+
+.service_section{
+    background-color: var(--color-main);
+}
+
+.service_section .title{
+    font-size: 40px;
+    padding: 40px ;
+}
+
+.service_container{
+    padding: 50px 0;
+    
+    display: grid;
+    
+    grid-template-areas:
+        "a b c";      
+    
+    /*🍀grid: img 가운데 정렬 in the container */
+    justify-items: center;
+    align-items: center;
+}
+
+.service_container .grid-a {
+    grid-area: a;
+}
+.service_container .grid-b {
+    grid-area: b;
+}
+.service_container .grid-c {
+    grid-area: c;
+}
+.service_container .grid-d {
+    grid-area: d;
+}
+
+.service_text{
+    
+    margin: 50px auto;
+
+    /* display: flex; */
+    background-color: var(--color-main);
+}
+
+
+.service_text .img{
+    width: 400px;
+}
+.service_text .img img{
+    width: 100%;
+}
+
+.service_text .service_text-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.service_text div{
+    padding: 20px;
+    margin: auto;
+}
