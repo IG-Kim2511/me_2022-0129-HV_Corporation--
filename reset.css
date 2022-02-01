@@ -68,7 +68,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  max-width: 1500px;
+  max-width: var(--main-width);
   text-align: center;
   margin: auto;
   padding: 0 auto;
