@@ -290,10 +290,11 @@ content: "";
     width: var(--main-width);  /* CSS10 */
 
     background-color: var(--color-main2);
+    margin: auto;
 }
 
 #contact .contact-items{
-    width: 750px;
+    width: 750px;    /* CSS10 */
     
 }
 #contact .contact-items .title{

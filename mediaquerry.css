@@ -6,28 +6,45 @@
     }
   
     html {
-      background-color: yellow;
-      font-size: 70%;
+      /* background-color: yellow;
+      font-size: 70%; */
     }
   }
   
   /* @ 576px */
   @media (max-width: 576px) {
     html {
-      background-color: blue;
-      font-size: 55%;
+      /* background-color: blue;
+      font-size: 55%; */
     }
   }
   
   /* @ 1200px */
-  @media (min-width: 1200px) {
-    html{
-      /* background-color: green; */
+  @media (max-width: 1200px) {
+   
+    html {
+      /* background-color: red;       */
+    }
+  }
+
+  /* @ 1500px */
+  @media (max-width: 1500px) {
+    :root {
+      --main-width: 1200px;
+    } 
+
+    #contact .contact-items{
+      width: 600px;    /* CSS10 */     
     }
 
-    #skills,
-    #language {
-      max-width: 1200px;
-      margin: auto;
+    #contact .grid-container .share{
+      width: 250px; /* CSS10 */
+    }
+    #contact .grid-container .alone{
+        width: 600px;   /* CSS10 */
+    }
+  
+    #contact .submit{    
+      width: 600px;
     }
   }
