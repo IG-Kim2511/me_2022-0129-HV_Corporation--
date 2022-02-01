@@ -449,14 +449,14 @@ grid-area: g;
 
 /* map */
 
-#map .map{
+.map_container .map{
     width: var(--main-width);    
 
     display: block;
     margin: auto;    
 }
 
-#map .map img{
+.map_container .map img{
     width: 100%;
 }
 
