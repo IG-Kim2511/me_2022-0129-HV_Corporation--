@@ -1,5 +1,15 @@
 
 
+
+
+// 🍀js10. navbar2
+
+
+
+
+
+
+
 // 🍀js22. slide-show
 /* 
 const slides = document.querySelectorAll('.slide-container');
@@ -52,3 +62,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+// 🍀js30. slide-show - auto playing

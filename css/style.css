@@ -45,8 +45,7 @@
 }
 
 .nav .navbar ul a{
-    padding: 1rem;
-    
+    padding: 1rem;    
 }
 
 .nav .navbar .phone-container{
@@ -54,7 +53,34 @@
 }
 .nav .navbar .phone-container .phone{
     padding: 1rem;
+}
 
+/* navbar2 */
+.nav2 .title{ 
+    width: 300px;
+    padding: 2rem;
+}
+.nav2 .title img{
+    width: 100%;
+}
+
+.nav2 .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: var(--color-main);
+}
+
+.nav2 .navbar ul a{
+    padding: 1rem;    
+}
+
+.nav2 .navbar .phone-container{
+    display: flex;
+}
+.nav2 .navbar .phone-container .phone{
+    padding: 1rem;
 }
 
 /* introduce */
