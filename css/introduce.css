@@ -1,5 +1,5 @@
 .introduce_page .introduce_page-title{
-    width: 80vw;
+    /* width: 80vw; */
     height: 40vh;
     background: url(../img/introduce-dron.webp) center no-repeat;   
     background-size: cover;

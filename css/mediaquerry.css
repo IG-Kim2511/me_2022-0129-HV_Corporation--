@@ -1,5 +1,41 @@
 
+    /* @ 1500px */
+    /* @media (max-width: 1500px) {
+      :root {
+        --main-width: 1200px;
+      } 
   
+      .contact .contact-items{
+        width: 600px;         
+      }
+  
+      .contact .grid-container .share{
+        width: 250px; 
+      }
+      .contact .grid-container .alone{
+          width: 600px;  
+      }
+    
+      .contact .submit{    
+        width: 600px;
+      }
+    } */
+
+
+     
+  /* @ 1200px */
+  @media (max-width: 1200px) {    
+    :root {
+      --main-width: 500px;
+    } 
+    
+    .contact{   
+      flex-direction: column;
+    }
+  }
+
+
+
   /* @ 768px */
   @media (max-width: 768px) {
     :root {
@@ -11,42 +47,25 @@
     }
   }
   
-  /* @ 576px */
-  @media (max-width: 576px) {
+  /* @ 450px */
+  @media (max-width: 450px) {
+
+    :root {
+      --main-width: 400px;
+    } 
+
     html {
-      /* background-color: blue;
-      font-size: 55%; */
-    }
-  }
-  
-  /* @ 1200px */
-  @media (max-width: 1200px) {    
-    :root {
-      --main-width: 500px;
-    } 
-    .contact{   
-      flex-direction: column;
-    }
-  }
-
-  /* @ 1500px */
-  @media (max-width: 1500px) {
-    :root {
-      --main-width: 1200px;
-    } 
-
-    .contact .contact-items{
-      width: 600px;    /* CSS10 */     
+      background-color: blue;
+      font-size: 25%;
     }
 
-    .contact .grid-container .share{
-      width: 250px; /* CSS10 */
-    }
-    .contact .grid-container .alone{
-        width: 600px;   /* CSS10 */
-    }
-  
-    .contact .submit{    
-      width: 600px;
-    }
+    .introduce .item1{
+
+      /* parallax  */
+      width: 30%;
+
+      min-height: 30vh;       
   }
+  }
+
+ 

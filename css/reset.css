@@ -24,9 +24,7 @@
 
 
 html {  
-  font-size: 100%;
-
-  
+  font-size: 100%; 
 
   /* scroll부드럽게 ( + html : <a href="#~~~~"></a> 써야함) */
   scroll-behavior: smooth;
@@ -125,6 +123,11 @@ td {
 
 .relative {
   position: relative;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 .transforming {
