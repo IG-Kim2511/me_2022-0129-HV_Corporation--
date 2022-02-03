@@ -10,8 +10,8 @@
 }
 
 .service_section .title{
-    font-size: 40px;
-    padding: 40px ;
+    font-size: 2rem;
+    padding: 2rem ;
 }
 
 .service_container{
@@ -69,3 +69,28 @@
     padding: 20px;
     margin: auto;
 }
+
+/*  */
+
+/* @ 576px */
+@media (max-width: 576px) {
+    .service_container{
+        padding: 0.5rem 0;
+        
+        grid-template-areas:
+            "a"
+            "b"
+            "c";  
+    }
+    
+    .service_text{
+       margin: 0.5rem auto;
+    }
+    .service_text div{
+        padding: 0.5rem;
+    }
+    
+
+}
+
+  
