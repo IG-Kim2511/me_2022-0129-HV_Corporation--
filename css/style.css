@@ -172,38 +172,26 @@
 .services-slideShow .mySlides .text-container{
 
     position: absolute;
-    bottom: 50%;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
 
-    /* background:linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ); */
+    /*🦄 css20, text inside opacity box */
     background-color: white;
-    opacity: 0.1;
+    background: rgba(255,255,255,0.5);
 
-    width: 100%;    
+    width: 50%;    
     padding: 2rem;
+    
     text-align: center;
 }
 
-
 .services-slideShow .mySlides .text{
-
-/*     position: absolute;
-    bottom: 50%;
- */
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
-}
 
-/* .services-slideShow .mySlides .text::before{
-
-content: "";
-  background-color: yellow;
-  width: 1000px;
-  height: 1000px; 
+    
 }
- */
 
 /*  */
 .services-slideShow .mySlides {
