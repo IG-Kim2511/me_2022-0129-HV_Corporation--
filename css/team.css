@@ -4,8 +4,8 @@
 }
 
 .team_section .title{
-    font-size: 40px;
-    padding: 40px ;
+    font-size: 2rem;
+    padding: 2rem ;
 }
 
 .team_container{
@@ -60,9 +60,33 @@
     flex-direction: column;
 }
 
-
-
 .team_text div{
     padding: 10px;
     margin: auto;
 }
+
+/*  */
+
+  /* @ 576px */
+  @media (max-width: 576px) {
+
+    .team_container{
+        padding: 0.5rem 0;
+        
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d";
+        
+        /*🍀grid: img 가운데 정렬 in the container */
+        justify-items: center;
+        align-items: center;
+    }
+
+    
+    .team_text{
+        padding: 1rem;
+}
+}
+  
