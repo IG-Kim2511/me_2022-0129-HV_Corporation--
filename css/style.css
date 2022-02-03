@@ -28,15 +28,15 @@
   }
 
 /* navbar */
-#nav .title{ 
+.nav .title{ 
     width: 300px;
     padding: 2rem;
 }
-#nav .title img{
+.nav .title img{
     width: 100%;
 }
 
-#nav .navbar{
+.nav .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;  
@@ -44,15 +44,15 @@
     background-color: var(--color-main);
 }
 
-#nav .navbar ul a{
+.nav .navbar ul a{
     padding: 1rem;
     
 }
 
-#nav .navbar .phone-container{
+.nav .navbar .phone-container{
     display: flex;
 }
-#nav .navbar .phone-container .phone{
+.nav .navbar .phone-container .phone{
     padding: 1rem;
 
 }
@@ -60,7 +60,7 @@
 /* introduce */
 
 
-#introduce .introduce-item {    
+.introduce .introduce-item {    
     
     width: var(--main-width);
     position: relative; 
@@ -70,7 +70,7 @@
 }
 
 
-#introduce .item1{
+.introduce .item1{
     width: 100%;
     height: 80vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
@@ -81,7 +81,7 @@
     margin: 80px 0;     
 }
 
-#introduce .item2{
+.introduce .item2{
     width: 100%;
     height: 80vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5),
@@ -92,13 +92,13 @@
     margin: 80px 0 ;    
 }
 
-#introduce .item1 .text{
+.introduce .item1 .text{
     position: absolute;
     top: 40%;
  
 }
 
-#introduce .item2 .text{
+.introduce .item2 .text{
     position: absolute;
     bottom: 10%;
 
@@ -106,23 +106,23 @@
 
 
 
-#introduce .item1 h1{
+.introduce .item1 h1{
     font-size: 7rem;
 
 }
-#introduce .item1 div{
+.introduce .item1 div{
     font-size: 2rem;
     padding-left: 3rem;
 
 }
 
 
-#introduce .item2 h1{
+.introduce .item2 h1{
     font-size: 4rem;
     margin-bottom: 10rem;
 
 }
-#introduce .item2 div{
+.introduce .item2 div{
     font-size: 1rem;
     padding-left: 3rem;
     text-transform: none;
