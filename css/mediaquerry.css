@@ -58,10 +58,11 @@
       font-size: 50%;
     }
 
-    .nav .title{ 
+    .nav .title,
+    .nav2 .title{ 
       width: 50px;
       padding: .5rem;
-  }
+    }
 
     .introduce .item1,
     .introduce .item2{     
