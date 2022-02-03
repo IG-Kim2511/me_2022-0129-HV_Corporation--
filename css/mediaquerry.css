@@ -65,6 +65,23 @@
       min-height: 30vh;  
     }
 
+    .mainProducts .grid-container {
+
+
+      grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i"
+        "j"; 
+      
+      }
+
     .contact .grid-container {
       grid-template-areas:
           "a"
