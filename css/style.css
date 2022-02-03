@@ -393,16 +393,12 @@ grid-area: j;
 /* contact */
 .contact{
     display: flex;
-   
-
     background-color: var(--color-main2);
     margin: auto;
 }
 
-.contact .contact-items{
-    width: 600px;    /* CSS10 */    
-    margin: auto;
-    
+.contact .contact-items{  
+    margin: auto;    
 }
 .contact .contact-items .title{
     font-size: 3rem;
@@ -511,7 +507,7 @@ grid-area: g;
 
 .contact .submit{
     
-    width: 600px;
+    /* width: 600px; */
     height: 4.5rem;
 
     background-color: black;
