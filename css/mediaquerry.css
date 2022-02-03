@@ -59,6 +59,33 @@
     }
 
     .introduce .item1,
+    .introduce .item2{     
+      margin: 10px 0;   
+    }
+
+    .introduce .item2 h1{
+      margin-bottom: 1rem;  
+      }
+
+    .services-slideShow .title{    
+      /* font-size: 4rem; */
+      padding: 1rem;
+    }
+
+
+    .mainProducts {
+      padding-bottom: 1rem;
+    }
+
+    .mainProducts .title{
+      padding: 1rem;
+    }
+      
+    .mainProducts .grid-container {      
+     padding: 10px 0;
+    }
+
+    .introduce .item1,
     .introduce .item2{
       /* parallax  */
       /* width: 30%; */
@@ -83,6 +110,9 @@
       }
 
     .contact .grid-container {
+
+      
+      padding: 1rem 0;
       grid-template-areas:
           "a"
           "b"
