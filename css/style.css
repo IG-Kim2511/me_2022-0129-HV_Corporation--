@@ -323,13 +323,71 @@ content: "";
 }
 
 
-.mainProducts table{    
+/* .mainProducts table{    
     width: 1000px;
 }
 
 .mainProducts table td{
     padding: 1.5rem;
+} */
+
+
+.mainProducts .grid-container {
+
+padding: 50px 0;
+
+display: grid;
+
+grid-template-areas:
+    "a b"
+    "c d"
+    "e f"
+    "g h"
+    "i j";
+justify-items: center;
+align-items: center;
+
 }
+
+.mainProducts .grid-container .grid-a {
+grid-area: a;
+}
+.mainProducts .grid-container .grid-b {
+grid-area: b;
+}
+.mainProducts .grid-container .grid-c {
+grid-area: c;
+}
+.mainProducts .grid-container .grid-d {
+grid-area: d;
+}
+.mainProducts .grid-container .grid-e {
+grid-area: e;
+}
+.mainProducts .grid-container .grid-f {
+grid-area: f;
+}
+.mainProducts .grid-container .grid-g {
+grid-area: g;
+}
+.mainProducts .grid-container .grid-h {
+grid-area: h;
+}
+.mainProducts .grid-container .grid-i {
+grid-area: i;
+}
+.mainProducts .grid-container .grid-j {
+grid-area: j;
+}
+
+
+.mainProducts .grid-container .gPad div{
+    padding: 1.5rem;
+}
+
+
+
+
 
 
 /* contact */
