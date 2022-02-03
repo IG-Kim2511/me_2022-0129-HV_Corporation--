@@ -26,7 +26,7 @@
   /* @ 1200px */
   @media (max-width: 1200px) {    
     :root {
-      --main-width: 500px;
+      --main-width: 1000px;
     } 
     
     .contact{   
@@ -47,25 +47,42 @@
     }
   }
   
-  /* @ 450px */
-  @media (max-width: 450px) {
+  /* @ 576px */
+  @media (max-width: 576px) {
 
     :root {
       --main-width: 400px;
     } 
 
-    html {
-      background-color: blue;
-      font-size: 25%;
+    html {      
+      font-size: 50%;
     }
 
-    .introduce .item1{
-
+    .introduce .item1,
+    .introduce .item2{
       /* parallax  */
-      width: 30%;
+      /* width: 30%; */
+      min-height: 30vh;  
+    }
 
-      min-height: 30vh;       
-  }
+    .contact .grid-container {
+      grid-template-areas:
+          "a"
+          "b"
+          "c"
+          "d"
+          "e"
+          "f"
+          "g";      
+      }
+
+    .contact .grid-container .alone{
+      width: 250px;   /* CSS10 */
+    }
+
+
+
   }
 
  
+
