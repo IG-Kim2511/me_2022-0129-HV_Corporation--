@@ -50,7 +50,7 @@
 
 
 .service_text .img{
-    width: 400px;
+    width: 25rem;
 }
 .service_text .img img{
     width: 100%;
@@ -88,8 +88,7 @@
     }
     .service_text div{
         padding: 0.5rem;
-    }
-    
+    }    
 
 }
 
