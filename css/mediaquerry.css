@@ -70,10 +70,14 @@
      }
     }
 
+  /* 🍳Bug:  전체화면에서도 padding 0.5rem이 적용됨..*/
     .nav .navbar .phone-container .phone,
     .nav2 .navbar .phone-container .phone{
-        padding: 1rem;
+        padding: 0.5rem;
+        padding-right: 2rem;
     }
+
+
 
     .introduce .item1,
     .introduce .item2{     
