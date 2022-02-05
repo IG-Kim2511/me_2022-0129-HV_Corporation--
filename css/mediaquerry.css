@@ -64,6 +64,17 @@
       padding: .5rem;
     }
 
+    .nav .navbar .phone-container,
+    .nav2 .navbar .phone-container{
+      flex-direction: column;         
+     }
+    }
+
+    .nav .navbar .phone-container .phone,
+    .nav2 .navbar .phone-container .phone{
+        padding: 1rem;
+    }
+
     .introduce .item1,
     .introduce .item2{     
       margin: 10px 0;   
