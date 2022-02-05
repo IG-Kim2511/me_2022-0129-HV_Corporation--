@@ -58,22 +58,26 @@ function showSlides(n) {
 
 
 // 🍀js30. slide-show - auto playing
-(function(){
-  // var imgLen = document.getElementById('imgGallary');
-  // var images = imgLen.getElementsByTagName('img');
+// (function(){
+//   var imgLen = document.getElementById('imgGallary');
+//   var images = imgLen.getElementsByTagName('img');
 
-  let images = document.querySelectorAll('.slideshow img');
-  let counter = 1;
+//   let images = document.querySelectorAll('.slideshow img');
+//   let counter = 1;
 
-  if(counter <= images.length){
-      setInterval(function(){
-          images[0].src = images[counter].src;
-          console.log(images[counter].src);
-          counter++;
+//   if(counter <= images.length){
+//       setInterval(function(){
+//           images[0].src = images[counter].src;
+//           console.log(images[counter].src);
+//           counter++;
 
-          if(counter === images.length){
-              counter = 1;
-          }
-      },4000);
-  }
-})();
+//           if(counter === images.length){
+//               counter = 1;
+//           }
+//       },4000);
+//   }
+// })();
+
+/* 
+img1.setAttribute('src', '/imgs/2-arrows.png');
+*/
