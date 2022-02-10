@@ -31,7 +31,13 @@
     html {      
       font-size: 80%;
     }
-
+    
+    .nav .title,
+    .nav2 .title{ 
+      width: 150px;
+      padding: .5rem;
+    }
+    
     .introduce .item1 div,
     .introduce .item2 div{   
       padding-left: 1rem;
@@ -57,7 +63,7 @@
 
     .nav .title,
     .nav2 .title{ 
-      width: 70px;
+      width: 100px;
       padding: .5rem;
     }
 
