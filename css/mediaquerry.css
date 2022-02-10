@@ -68,9 +68,9 @@
     .nav2 .navbar .phone-container{
       flex-direction: column;         
      }
-    }
+    
 
-  /* 🍳Bug:  전체화면에서도 padding 0.5rem이 적용됨..*/
+    /* 🍳Bug:  전체화면에서도 padding 0.5rem이 적용됨..*/
     .nav .navbar .phone-container .phone,
     .nav2 .navbar .phone-container .phone{
         padding: 0.5rem;
