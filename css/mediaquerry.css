@@ -28,6 +28,15 @@
     :root {
       --main-width: 1000px;
     } 
+    html {      
+      font-size: 80%;
+    }
+
+    .introduce .item1 div,
+    .introduce .item2 div{   
+      padding-left: 1rem;
+    }
+
     
     .contact{   
       flex-direction: column;
@@ -39,11 +48,73 @@
   /* @ 768px */
   @media (max-width: 768px) {
     :root {
+      --main-width: 650px;
     }
   
-    html {
-      /* background-color: yellow;
-      font-size: 70%; */
+    html {      
+      font-size: 70%;
+    }
+
+    .nav .title,
+    .nav2 .title{ 
+      width: 70px;
+      padding: .5rem;
+    }
+
+            
+    /*  */
+    .introduce .item1,
+    .introduce .item2{     
+      margin: 10px 0;   
+    }
+
+    .introduce .item1 div,
+    .introduce .item2 div{   
+      padding-left: 0.5rem;
+    }
+
+    .services-slideShow .title{    
+     
+      padding: 1rem;
+    }
+
+    .mainProducts {
+      padding-bottom: 1rem;
+    }
+
+    .mainProducts .title{
+      padding: 2rem;
+    }
+    
+
+    .mainProducts .grid-container {
+      grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i"
+        "j";       
+      }
+
+    .contact .grid-container {      
+      padding: 1rem 0;
+      grid-template-areas:
+          "a"
+          "b"
+          "c"
+          "d"
+          "e"
+          "f"
+          "g";      
+      }
+
+    .contact .grid-container .alone{
+      width: 250px;   /* CSS10 */
     }
   }
   
@@ -69,15 +140,12 @@
       flex-direction: column;         
      }
     
-
     /* 🍳Bug:  전체화면에서도 padding 0.5rem이 적용됨..*/
     .nav .navbar .phone-container .phone,
     .nav2 .navbar .phone-container .phone{
         padding: 0.5rem;
         padding-right: 2rem;
     }
-
-
 
     .introduce .item1,
     .introduce .item2{     
@@ -87,6 +155,11 @@
     .introduce .item2 h1{
       margin-bottom: 1rem;  
       }
+
+    .introduce .item1 div,
+    .introduce .item2 div{   
+      padding-left: 1rem;
+    }
 
     .services-slideShow .title{    
       /* font-size: 4rem; */
@@ -114,8 +187,6 @@
     }
 
     .mainProducts .grid-container {
-
-
       grid-template-areas:
         "a"
         "b"
@@ -126,13 +197,10 @@
         "g"
         "h"
         "i"
-        "j"; 
-      
+        "j";       
       }
 
     .contact .grid-container {
-
-      
       padding: 1rem 0;
       grid-template-areas:
           "a"

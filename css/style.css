@@ -82,8 +82,7 @@
 
 }
 .introduce .item1{
-    width: 100%;
-    
+    width: 100%;    
 
     background: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url(../img/front1.jpg) center no-repeat;   
@@ -122,14 +121,12 @@
 
 .introduce .item1 .text{
     position: absolute;
-    top: 40%;
- 
+    top: 40%; 
 }
 
 .introduce .item2 .text{
     position: absolute;
     bottom: 10%;
-
 }
 
 
@@ -141,7 +138,6 @@
 .introduce .item1 div{
     font-size: 2rem;
     padding-left: 3rem;
-
 }
 
 
