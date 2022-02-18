@@ -513,6 +513,11 @@ grid-area: g;
     width: 100%;
 }
 
+.map_container .map iframe{
+    width: var(--main-width);
+    height: 40rem;
+}
+
 
 /* footer */
 footer{
