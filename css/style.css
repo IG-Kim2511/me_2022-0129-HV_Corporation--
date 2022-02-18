@@ -408,57 +408,18 @@ grid-area: j;
     background-color: var(--color-main2);
 }
 
-
-.contact .grid-container {
-
-padding: 50px 0;
-
-display: grid;
-
-grid-template-areas:
-    "a b"
-    "c d"
-    "e e"
-    "f f"
-    "g g";
-
-/*🍀grid: img 가운데 정렬 in the container */
-justify-items: center;
-align-items: center;
-
+.contact .grid-container{
+    
+    padding: 50px 0;
 }
 
-.contact .grid-container .grid-a {
-grid-area: a;
+.contact .flex-a,
+.contact .flex-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
-
-.contact .grid-container .grid-a input, 
-.contact .grid-container .grid-b input{
-    border: 1px solid red;
-    background-color: #e4dee0;
-}
-
-.contact .grid-container .grid-b {
-grid-area: b;
-}
-
-.contact .grid-container .grid-c {
-grid-area: c;
-}
-.contact .grid-container .grid-d {
-grid-area: d;
-}
-.contact .grid-container .grid-e {
-grid-area: e;
-}
-.contact .grid-container .grid-f {
-grid-area: f;
-}
-  
-.contact .grid-container .grid-g {
-grid-area: g;
-}
-  
 
 .contact .grid-container .grid-c input:hover, 
 .contact .grid-container .grid-d input:hover,
@@ -467,23 +428,24 @@ grid-area: g;
     border: 1px solid black;    
 }
 
-
-.contact .grid-container .gPad{
- padding-top: 10px;
+.contact .grid-container .alone{
+    width: 35rem;  
 }
 .contact .grid-container .share{
-    width: 250px; /* CSS10 */
+    width: 17rem;  
 }
-.contact .grid-container .alone{
-    width: 600px;   /* CSS10 */
-}
+
+.contact .grid-container .gPad{
+    padding-top: 10px;
+   }
 
 .contact .grid-container div{
     text-align: left;
 }
 
+
 .contact .submit{
-    
+
     /* width: 600px; */
     height: 4.5rem;
 
@@ -493,12 +455,8 @@ grid-area: g;
 }
 
 .contact .submit:hover{
-    opacity: 0.5;
+opacity: 0.5;
 }
-
-
-
-
 
 /* map */
 
