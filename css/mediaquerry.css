@@ -107,21 +107,7 @@
         "j";       
       }
 
-    .contact .grid-container {      
-      padding: 1rem 0;
-      grid-template-areas:
-          "a"
-          "b"
-          "c"
-          "d"
-          "e"
-          "f"
-          "g";      
-      }
 
-    .contact .grid-container .alone{
-      width: 250px;   /* CSS10 */
-    }
   }
   
   /* @ 576px */
@@ -205,24 +191,6 @@
         "i"
         "j";       
       }
-
-    .contact .grid-container {
-      padding: 1rem 0;
-      grid-template-areas:
-          "a"
-          "b"
-          "c"
-          "d"
-          "e"
-          "f"
-          "g";      
-      }
-
-    .contact .grid-container .alone{
-      width: 250px;   /* CSS10 */
-    }
-
-
 
   }
 
