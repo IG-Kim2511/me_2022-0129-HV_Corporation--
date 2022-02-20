@@ -14,8 +14,7 @@ nav2Elem.innerHTML = `
       <a href="./introduce.html">About Us</a>
       <a href="./team.html">Team</a>
       <a href="./service.html">Service</a>
-      <a href="./contact.html">contact Us</a>
-      <a href="./faq.html">FAQ</a>                 
+      <a href="./contact.html">contact Us</a>              
   </ul>
   <ul class="phone-container">
       <li class="phone">jc@hvco.kr</li>
