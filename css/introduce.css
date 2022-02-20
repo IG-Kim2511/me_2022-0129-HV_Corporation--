@@ -4,7 +4,6 @@
     width: var(--main-width);
     height: 90vh;
     background: url('../img/fishing.jpg') center no-repeat;
-
     background-size: cover;
 
 }
@@ -35,6 +34,9 @@
     /* width: 80vw; */
     height: 40vh;
 
+    /* 🦄 background: url 
+        center, no-repeat 꼭 넣어야 함
+        : cover 꼭 넣어야함 */
     background: url('../img/introduce-dron.webp') center no-repeat;   
     background-size: cover;
     position: relative;
