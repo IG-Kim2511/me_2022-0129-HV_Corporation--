@@ -300,7 +300,7 @@
     justify-content: center;
     align-items: center;
     
-    padding: 5rem;
+    padding-top: 2rem;
     gap: 2rem;
 }
 
@@ -319,6 +319,25 @@
 .mainProducts .title-img-parents img{
     width: 100%;
 }
+
+/*  */
+.mainProducts-a .grid-container {
+    width: var(--main-width);
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainProducts-a .grid-container .gPad{
+    width: 12rem;
+}
+.mainProducts-a .grid-container .gPad img{
+    width: 100%;
+}
+
 
 /*  */
 .mainProducts-b .grid-container {

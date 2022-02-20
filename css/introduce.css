@@ -1,8 +1,41 @@
+
+
+.introduce_page .fishing {
+    width: var(--main-width);
+    height: 90vh;
+    background: url('../img/fishing.jpg') center no-repeat;
+
+    background-size: cover;
+
+}
+
+.introduce_page .fishing .img-parents{
+    width: 10rem;
+}
+
+.introduce_page .fishing .img-parents img{
+    width: 100%;
+}
+
+.introduce_page .fishing .title :nth-child(1),
+.introduce_page .fishing .title :nth-child(2){
+    text-align: start;
+}
+
+.introduce_page .fishing .text{
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+   
+}
+
+
+
 .introduce_page .introduce_page-title{
     /* width: 80vw; */
     height: 40vh;
 
-    background: url(../img/introduce-dron.webp) center no-repeat;   
+    background: url('../img/introduce-dron.webp') center no-repeat;   
     background-size: cover;
     position: relative;
     
