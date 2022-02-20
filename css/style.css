@@ -289,80 +289,95 @@
 
 /* mainProducts */
 .mainProducts {
-    background-color: var(--color-main);
+    /* background-color: var(--color-main); */
 
     padding-bottom: 5rem;
 }
 
+
 .mainProducts .title{
-    font-size: 4rem;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+/*  */
+.mainProducts .title h1{
+    font-size: 3rem;    
+}
+.mainProducts .title div{
+    font-size: 1rem;    
+    vertical-align: bottom;
+}
+
+.mainProducts .title-img-parents{
+    width: 8rem;
+}
+.mainProducts .title-img-parents img{
+    width: 100%;
+}
+
+/*  */
+.mainProducts-a .grid-container {
+    width: var(--main-width);
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainProducts-a .grid-container .gPad{
+    width: 12rem;
+}
+.mainProducts-a .grid-container .gPad img{
+    width: 100%;
 }
 
 
-/* .mainProducts table{    
-    width: 1000px;
+/*  */
+.mainProducts-b .grid-container {
+    width: var(--main-width);
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.mainProducts table td{
-    padding: 1.5rem;
-} */
-
-
-.mainProducts .grid-container {
-
-padding: 50px 0;
-
-display: grid;
-
-grid-template-areas:
-    "a b"
-    "c d"
-    "e f"
-    "g h"
-    "i j";
-justify-items: center;
-align-items: center;
-
+.mainProducts-b .grid-container .grid-d img{
+    background: url("../img/2.Transsmission&Dist/4-1\ xple.png") center no-repeat;
 }
-
-.mainProducts .grid-container .grid-a {
-grid-area: a;
+.mainProducts-b .grid-container .gPad{
+    width: 12rem;
 }
-.mainProducts .grid-container .grid-b {
-grid-area: b;
-}
-.mainProducts .grid-container .grid-c {
-grid-area: c;
-}
-.mainProducts .grid-container .grid-d {
-grid-area: d;
-}
-.mainProducts .grid-container .grid-e {
-grid-area: e;
-}
-.mainProducts .grid-container .grid-f {
-grid-area: f;
-}
-.mainProducts .grid-container .grid-g {
-grid-area: g;
-}
-.mainProducts .grid-container .grid-h {
-grid-area: h;
-}
-.mainProducts .grid-container .grid-i {
-grid-area: i;
-}
-.mainProducts .grid-container .grid-j {
-grid-area: j;
+.mainProducts-b .grid-container .gPad img{
+    width: 100%;
 }
 
 
-.mainProducts .grid-container .gPad div{
-    padding: 1.5rem;
+/*  */
+.mainProducts-c .grid-container {
+    width: var(--main-width);
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-
+.mainProducts-c .grid-container .gPad{
+    width: 18rem;
+}
+.mainProducts-c .grid-container .gPad img{
+    width: 100%;
+}
 
 
 
