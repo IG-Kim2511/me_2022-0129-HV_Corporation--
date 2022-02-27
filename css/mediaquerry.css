@@ -45,11 +45,11 @@
 
     /*  */
     .introduce_page .fishing {
-      /* width: var(--main-width); */
-      height: 45vh;    
+      
+      /* height: 40rem;     */
     }
     .introduce_page .introduce_page-title{
-      height: 35vh;
+      height: 30rem;
     }
 
 
@@ -91,17 +91,14 @@
   .mainProducts-c .grid-container .gPad img{
       width: 70%;
   }
-  
-  
-
-            
+              
     /*  */
     .introduce_page .fishing {
-      /* width: var(--main-width); */
-      height: 30vh;    
+      
+      height: 35rem;    
     }
     .introduce_page .introduce_page-title{
-      height: 25vh;
+      height: 25rem;
     }
 
 
@@ -158,11 +155,11 @@
     /*  */
 
     .introduce_page .fishing {
-      /* width: var(--main-width); */
-      height: 15vh;    
+      
+      height: 25rem;    
     }
     .introduce_page .introduce_page-title{
-      height: 10vh;
+      height: 20rem;
     }
 
 
