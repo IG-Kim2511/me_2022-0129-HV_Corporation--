@@ -338,9 +338,9 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    align-items: center;
-    
+    align-items: center;    
 }
+
 .mainProducts-a .grid-container .gPad img{
     width: 100%;
     padding: 1rem;
@@ -365,9 +365,16 @@
 }
 .mainProducts-b .grid-container .gPad{
     width: 12rem;
+    height: 17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;  
 }
 .mainProducts-b .grid-container .gPad img{
     width: 100%;
+    padding: 1rem;
 }
 
 
@@ -384,9 +391,19 @@
 
 .mainProducts-c .grid-container .gPad{
     width: 18rem;
+    height: 22rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;  
+
+    flex: 1 1 18rem;
 }
+
 .mainProducts-c .grid-container .gPad img{
     width: 100%;
+    padding: 2rem;
 }
 
 
