@@ -5,7 +5,9 @@
     --color-main:#f1f1f1;
     --color-main-white:#fff;
     --color-main2:#e1eff2;
-  
+
+    --color-warning: #f77f00;
+
     /*  */
     --main-width: 1200px;
   
@@ -325,18 +327,88 @@
     width: var(--main-width);
     padding: 50px 0;
 
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+ */
+    display: grid;
+
+    grid-template-areas:
+      "a a b c d e f"
+      "a a g h i j k"
+      "m m n o p q l"; 
+      
+
+    justify-items: center;
+    align-items: center;
 }
 
 .mainProducts-a .grid-container .gPad{
-    width: 12rem;
+    /* width: 12rem; */
+    height: 17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;    
 }
+
 .mainProducts-a .grid-container .gPad img{
     width: 100%;
+    padding: 1rem;
 }
+
+
+.mainProducts-a .grid-container .grid-a {
+    grid-area: a;
+  }
+  .mainProducts-a .grid-container .grid-b {
+    grid-area: b;
+  }
+  .mainProducts-a .grid-container .grid-c {
+    grid-area: c;
+  }
+  .mainProducts-a .grid-container .grid-d {
+    grid-area: d;
+  }
+  .mainProducts-a .grid-container .grid-e {
+    grid-area: e;
+  }
+  .mainProducts-a .grid-container .grid-f {
+    grid-area: f;
+  }
+  .mainProducts-a .grid-container .grid-g {
+    grid-area: g;
+  }
+  .mainProducts-a .grid-container .grid-h {
+    grid-area: h;
+  }
+  .mainProducts-a .grid-container .grid-i {
+    grid-area: i;
+  }
+  .mainProducts-a .grid-container .grid-j {
+    grid-area: j;
+  }
+  .mainProducts-a .grid-container .grid-k {
+    grid-area: k;
+  }
+  .mainProducts-a .grid-container .grid-l {
+    grid-area: l;
+  }
+  .mainProducts-a .grid-container .grid-m {
+    grid-area: m;
+  }
+  .mainProducts-a .grid-container .grid-n {
+    grid-area: n;
+  }
+  .mainProducts-a .grid-container .grid-o {
+    grid-area: o;
+  }
+  .mainProducts-a .grid-container .grid-p {
+    grid-area: p;
+  }
+
 
 
 /*  */
@@ -355,9 +427,16 @@
 }
 .mainProducts-b .grid-container .gPad{
     width: 12rem;
+    height: 17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;  
 }
 .mainProducts-b .grid-container .gPad img{
     width: 100%;
+    padding: 1rem;
 }
 
 
@@ -374,9 +453,19 @@
 
 .mainProducts-c .grid-container .gPad{
     width: 18rem;
+    height: 22rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;  
+
+    flex: 1 1 18rem;
 }
+
 .mainProducts-c .grid-container .gPad img{
     width: 100%;
+    padding: 1rem;
 }
 
 
@@ -504,4 +593,13 @@ footer ul{
 footer ul a{
     padding: 0 0.5rem;
     font-size: 2rem;
+}
+
+/*  */
+.bottom-text{
+    position: fixed;
+    bottom: 3rem;
+    right: 5rem;
+
+    color: var(--color-warning);
 }

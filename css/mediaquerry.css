@@ -38,7 +38,12 @@
       padding: .5rem;
     }
 
+  
+    .mainProducts-c .grid-container .gPad img{
+      width: 90%;
+    }
 
+    /*  */
     .introduce_page .fishing {
       /* width: var(--main-width); */
       height: 45vh;    
@@ -51,6 +56,7 @@
       padding-left: 1rem;
     }
 
+    
 
     
     .contact{   
@@ -77,6 +83,13 @@
       width: 100px;
       padding: .5rem;
     }
+
+  
+  .mainProducts-c .grid-container .gPad img{
+      width: 70%;
+  }
+  
+  
 
             
     /*  */
@@ -107,21 +120,6 @@
     .mainProducts .title{
       padding: 2rem;
     }
-    
-
-    .mainProducts .grid-container {
-      grid-template-areas:
-        "a"
-        "b"
-        "c"
-        "d"
-        "e"
-        "f"
-        "g"
-        "h"
-        "i"
-        "j";       
-      }
 
 
   }
@@ -193,6 +191,10 @@
      padding: 10px 0;
     }
 
+    .mainProducts-a .grid-container .gPad{      
+      height: 10rem;
+    }  
+
     .introduce .item1,
     .introduce .item2{
       /* parallax  */
@@ -200,19 +202,6 @@
       min-height: 30vh;  
     }
 
-    .mainProducts .grid-container {
-      grid-template-areas:
-        "a"
-        "b"
-        "c"
-        "d"
-        "e"
-        "f"
-        "g"
-        "h"
-        "i"
-        "j";       
-      }
 
   }
 

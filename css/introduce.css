@@ -6,6 +6,7 @@
     background: url('../img/fishing2.jpg') center no-repeat;
     background-size: cover;
 
+    margin: 0 auto;
 }
 
 .introduce_page .fishing .img-parents{
