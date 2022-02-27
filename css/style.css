@@ -327,14 +327,74 @@
     width: var(--main-width);
     padding: 50px 0;
 
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+ */
+    display: grid;
+
+    grid-template-areas:
+      "a a b c d e f"
+      "a a g h i j k"
+      "l l m m n o p"; 
+      
+
+    justify-items: center;
+    align-items: center;
 }
+.mainProducts-a .grid-container .grid-a {
+    grid-area: a;
+  }
+  .mainProducts-a .grid-container .grid-b {
+    grid-area: b;
+  }
+  .mainProducts-a .grid-container .grid-c {
+    grid-area: c;
+  }
+  .mainProducts-a .grid-container .grid-d {
+    grid-area: d;
+  }
+  .mainProducts-a .grid-container .grid-e {
+    grid-area: e;
+  }
+  .mainProducts-a .grid-container .grid-f {
+    grid-area: f;
+  }
+  .mainProducts-a .grid-container .grid-g {
+    grid-area: g;
+  }
+  .mainProducts-a .grid-container .grid-h {
+    grid-area: h;
+  }
+  .mainProducts-a .grid-container .grid-i {
+    grid-area: i;
+  }
+  .mainProducts-a .grid-container .grid-j {
+    grid-area: j;
+  }
+  .mainProducts-a .grid-container .grid-k {
+    grid-area: k;
+  }
+  .mainProducts-a .grid-container .grid-l {
+    grid-area: l;
+  }
+  .mainProducts-a .grid-container .grid-m {
+    grid-area: m;
+  }
+  .mainProducts-a .grid-container .grid-n {
+    grid-area: n;
+  }
+  .mainProducts-a .grid-container .grid-o {
+    grid-area: o;
+  }
+  .mainProducts-a .grid-container .grid-p {
+    grid-area: p;
+  }
+
 
 .mainProducts-a .grid-container .gPad{
-    width: 12rem;
+    /* width: 12rem; */
     height: 17rem;
 
     display: flex;
