@@ -48,6 +48,9 @@
       /* width: var(--main-width); */
       height: 45vh;    
     }
+    .introduce_page .introduce_page-title{
+      height: 35vh;
+    }
 
 
     
@@ -97,6 +100,10 @@
       /* width: var(--main-width); */
       height: 30vh;    
     }
+    .introduce_page .introduce_page-title{
+      height: 25vh;
+    }
+
 
     .introduce .item1,
     .introduce .item2{     
@@ -149,15 +156,16 @@
     }
 
     /*  */
+
     .introduce_page .fishing {
       /* width: var(--main-width); */
       height: 15vh;    
     }
+    .introduce_page .introduce_page-title{
+      height: 10vh;
+    }
 
-    .introduce_page .fishing .img-parents{
-      width: 8rem;
-      
-  }
+
   
     .introduce .item1,
     .introduce .item2{     
