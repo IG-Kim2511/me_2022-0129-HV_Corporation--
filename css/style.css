@@ -337,7 +337,7 @@
     grid-template-areas:
       "a a b c d e f"
       "a a g h i j k"
-      "l l m m n o p"; 
+      "m m n o p q l"; 
       
 
     justify-items: center;
