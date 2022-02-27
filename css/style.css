@@ -333,11 +333,21 @@
 
 .mainProducts-a .grid-container .gPad{
     width: 12rem;
+    height: 17rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
 }
 .mainProducts-a .grid-container .gPad img{
     width: 100%;
+    padding: 1rem;
 }
+.mainProducts-a .grid-container .gPad div{
 
+}
 
 /*  */
 .mainProducts-b .grid-container {
