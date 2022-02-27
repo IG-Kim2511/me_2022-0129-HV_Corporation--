@@ -5,7 +5,9 @@
     --color-main:#f1f1f1;
     --color-main-white:#fff;
     --color-main2:#e1eff2;
-  
+
+    --color-warning: #f77f00;
+
     /*  */
     --main-width: 1200px;
   
@@ -531,4 +533,13 @@ footer ul{
 footer ul a{
     padding: 0 0.5rem;
     font-size: 2rem;
+}
+
+/*  */
+.bottom-text{
+    position: fixed;
+    bottom: 3rem;
+    right: 5rem;
+
+    color: var(--color-warning);
 }
