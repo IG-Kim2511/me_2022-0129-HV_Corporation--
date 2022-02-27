@@ -1,15 +1,16 @@
 
 
 .introduce_page .fishing {
-    width: var(--main-width);
-    height: 90vh;
-    background: url('../img/fishing.jpg') center no-repeat;
+    /* width: var(--main-width); */
+    height: 55vh;
+    background: url('../img/fishing2.jpg') center no-repeat;
     background-size: cover;
 
 }
 
 .introduce_page .fishing .img-parents{
     width: 10rem;
+    padding: 1rem 2rem;
 }
 
 .introduce_page .fishing .img-parents img{
