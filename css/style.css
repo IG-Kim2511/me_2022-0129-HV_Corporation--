@@ -347,7 +347,7 @@
 
 .mainProducts-a .grid-container .gPad{
     /* width: 12rem; */
-    
+    flex: 1 1 12rem;
     height: 17rem;
 
     display: flex;
