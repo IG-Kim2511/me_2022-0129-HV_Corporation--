@@ -439,8 +439,14 @@
     align-items: center;  
 }
 .mainProducts-b .grid-container .gPad img{
-    width: 100%;
+    /* width: 100%;
+    padding: 1rem; */
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
     padding: 1rem;
+    
 }
 
 
@@ -468,8 +474,10 @@
 }
 
 .mainProducts-c .grid-container .gPad img{
-    width: 100%;
-    padding: 1rem;
+    float: left;
+    width:  19rem;
+    height: 19rem;
+    
 }
 
 

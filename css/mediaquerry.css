@@ -125,6 +125,11 @@
       padding: 2rem;
     }
 
+    .mainProducts-b .grid-container .gPad img{ 
+      width:  150px;
+      height: 150px;      
+    }
+
 
   }
   
@@ -212,6 +217,10 @@
       min-height: 30vh;  
     }
 
+    .mainProducts-b .grid-container .gPad img{ 
+      width:  100px;
+      height: 100px;      
+    }
 
   }
 
